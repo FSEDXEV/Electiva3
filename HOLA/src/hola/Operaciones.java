@@ -66,12 +66,12 @@ public class Operaciones {
               System.out.println(i);  
             }
         
-        int i=0;
+        /*int i=0;
         while (b2=true && i<5) {            
             
             System.out.println("felicidades");
             i++;
-        }
+        }*/
         
                 
         
