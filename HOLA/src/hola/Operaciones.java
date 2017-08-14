@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package hola;
-
+import java.util.Scanner;
 /**
  *
  * @author ESTUDIANTE
@@ -16,6 +16,14 @@ public class Operaciones {
      int vInt;
      float vFloat;
      String vStr;
+     boolean b1, b2;
+     
+     Scanner sc = new Scanner(System.in);
+     
+     
+     
+     
+     
      vInt=5+2;
         System.out.println("vInt=5+2= "+vInt);
      vInt=5-2;
@@ -29,15 +37,43 @@ public class Operaciones {
         
         
      vFloat=5+2;
-        System.out.println("vInt=5+2= "+vInt);
+        System.out.println("vInt=5+2= "+vFloat);
      vFloat=5-2;
-        System.out.println("vInt=5-2= "+vInt);
+        System.out.println("vInt=5-2= "+vFloat);
      vFloat=5*2;
-        System.out.println("vInt=5*2= "+vInt);
+        System.out.println("vInt=5*2= "+vFloat);
      vFloat=5%2;
-        System.out.println("vInt=5%2= "+vInt);
+        System.out.println("vInt=5%2= "+vFloat);
      vFloat=5^2;
-        System.out.println("vInt=5^2= "+vInt);
+        System.out.println("vInt=5^2= "+vFloat);
+        
+        vStr="hola";
+        System.out.println("string: "+vStr);
+        
+        b1=true;
+        b2=false;
+        
+        System.out.println("b1 && b2"+ (b1 && b2));
+        System.out.println("b1 || b2"+ (b1 || b2));
+        System.out.println("!b1"+ (!b1));
+        System.out.println("!b2"+ (!b2));
+        
+        
+        System.out.println("");
+        System.out.println("sot"+ sc.nextLine());
+        
+        for (int i = 0; i < 10; i++) {
+              System.out.println(i);  
+            }
+        
+        int i=0;
+        while (b2=true && i<5) {            
+            
+            System.out.println("felicidades");
+            i++;
+        }
+        
+                
         
     }
 }
