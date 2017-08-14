@@ -7,7 +7,7 @@ package hola;
 
 /**
  *
- * @author ESTUDIANTE
+ * @author FABIAN
  */
 public class HOLA {
 
